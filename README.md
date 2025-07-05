@@ -64,8 +64,3 @@ personal-finance-visualizer/
 ├── client/
 ├── server/
 └── README.md
-<<<<<<< HEAD
-``` 
-=======
-``` 
->>>>>>> 1cd45fa (Initial full project upload)
