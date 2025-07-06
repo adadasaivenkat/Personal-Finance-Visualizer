@@ -4,6 +4,11 @@ A modern, responsive MERN-based web application for managing financial transacti
 
 ---
 
+## Live Demo
+[https://personal-finance-visualizer-gf53.onrender.com/](https://personal-finance-visualizer-gf53.onrender.com/)
+
+---
+
 **Data Modes: Public & Private**
 - You can use all features whether you are logged in or not.
 - **Not logged in:** You access and manage public/shared data.
@@ -40,6 +45,7 @@ MONGO_URL=your_mongodb_connection_string
 Create `/client/.env`:
 ```
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_API_URL=your_backend_url
 ```
 
 ### 3. Backend
@@ -60,7 +66,9 @@ npm run dev
 
 ## Folder Structure
 ```
-personal-finance-visualizer/
+Personal-Finance-Visualizer/
 ├── client/
 ├── server/
 └── README.md
+
+```
